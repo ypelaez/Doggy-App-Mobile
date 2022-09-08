@@ -9,13 +9,23 @@
     <title>Example</title>
 </head>
 <body>
-    <header class="p-3 bg-cyan-100 w-screen">
-        <div class="container mx-auto flex items-center content-center flex-col  sm:flex-row">
-            <img src="/src/perrito.jpg" class="w-10"  alt="">
-            <span class="px-4 text-cyan-800 font-bold uppercase tracking-widest text-xl">Discount calculator</span>
-        </div>
+
+    <main>
         
-    </header>
+        <section class="flex flex-col items-center container h-screen relative bg-gradient-to-b from-yellow-400 to-yellow-500">
+            <div class="sticky top-0 bg-yellow-400 z-10 p-3 bg-transparent absolute z w-screen container mx-auto flex items-center content-center flex-col  sm:flex-row">
+                <img src="/src/dogapp_logo.png" class="w-10"  alt="">
+                <span class="px-4 text-stone-800 font-bold text-xl">Doggy App</span>
+            </div>
+            <h1 class="pr-10 pl-10 pt-20 pb-4 text-4xl text-gray-800 font-black">Lo mejor, para el mejor amigo de hombre</h1>
+            <button class=" bg-cyan-600 text-white p-2 font-normal  hover:bg-transparent border border-cyan-600 max-w-sm w-4/6 hover:text-cyan-600 rounded mx-auto" type="button" onclick="onClickDiscount()">
+                Comprar
+            </button>
+            <img class="w-10/12 md:w-80  absolute bottom-0 right-0"src="perrito_hero.png" alt="">
+
+        </section>
+
+    </main>
     <section class="py-8">
         <div class="w-80 border-2 border-solid border-cyan-900 rounded-md h-80 mx-auto mt-10 "> 
         </div> 
